@@ -1,0 +1,88 @@
+{
+  "courses": [
+    {
+      "hasdiscount": true,
+      "isNew": false,
+      "category": "grammer",
+      "title": "جمله سازی",
+      "price": "20000",
+      "time": "2",
+      "teacher": "حسنی",
+      "id": "1"
+    },
+    {
+      "hasdiscount": true,
+      "isNew": false,
+      "category": "vocab",
+      "title": "504 ",
+      "price": "30000",
+      "time": "3",
+      "teacher": "حسینی",
+      "id": "2"
+    },
+    {
+      "hasdiscount": true,
+      "isNew": true,
+      "category": "grammer",
+      "title": "لغات آیلتس",
+      "price": "40000",
+      "time": "4",
+      "teacher": "رضایی",
+      "id": "3"
+    },
+    {
+      "hasdiscount": true,
+      "isNew": true,
+      "category": "speaking",
+      "title": "مکالمه 2",
+      "price": "60000",
+      "time": "3.5",
+      "teacher": "حسینی",
+      "id": "5"
+    },
+    {
+      "hasdiscount": false,
+      "isNew": true,
+      "category": "speaking",
+      "title": "مکالمات روزمره",
+      "price": "70000",
+      "time": "3.25",
+      "teacher": "اصغری",
+      "id": "6"
+    },
+    {
+      "id": "74ae",
+      "hasdiscount": true,
+      "isNew": false,
+      "category": "vocab",
+      "title": "لغات کنکور زبان",
+      "price": "12000",
+      "time": "4.5",
+      "teacher": "اصغری"
+    }
+  ],
+  "customers": [
+    {
+      "id": "69e2",
+      "phone": "121",
+      "password": "121"
+    },
+    {
+      "id": "02c3",
+      "phone": "2345",
+      "password": "2345"
+    },
+    {
+      "id": "9d93",
+      "phone": "12",
+      "password": "12"
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": "e5bb"
+    }
+  ]
+}
