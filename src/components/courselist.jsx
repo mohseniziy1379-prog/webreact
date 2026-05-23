@@ -25,7 +25,7 @@ import { Link } from 'react-router-dom'
        setNewlessons(items.filter (item => item.category === category))
       }
   return (
-    <>
+    <div className='flex flex-col'>
       <div className='w-9/12 mx-auto text-center mb-3'>
         <select  onChange={(e)=>handlechange(e)}  className='border-2 border-gray-400 rounded w-52 py-2 text-right ' name="" id="">
           <option value="all">همه</option>
@@ -35,7 +35,7 @@ import { Link } from 'react-router-dom'
         </select>
       </div>
 
-      <div className='w-9/12 mx-auto grid grid-cols-4 gap-2 min-h-[800px]'>
+      <div className='sm:w-9/12 w-7/12 mx-auto grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-2 mb-20'>
         {
            newlessons.map((item)=>(
               <Link to={`/lessonpage/${item.id}`} key={item.id}>
@@ -45,7 +45,7 @@ import { Link } from 'react-router-dom'
         }
       </div>
       <Footer/>
-    </>
+    </div>
   )
 }
 

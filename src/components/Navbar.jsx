@@ -11,7 +11,7 @@ function Navbar() {
   
   return (
     <>
-    <div className="mx-auto w-9/12 my-10  bg-slate-500 text-end  rounded h-14 flex flex-row-reverse items-center justify-between ">
+    <div className="mx-auto w-9/12 my-10 bg-slate-500 text-end  rounded h-14 flex  md:flex-row-reverse items-center justify-between ">
         <div className='flex flex-row-reverse'>
           <div className='mr-2 '>
             <Link className='bg-slate-200 rounded   px-2 py-2' to={`/`}>صفحه نخست</Link>

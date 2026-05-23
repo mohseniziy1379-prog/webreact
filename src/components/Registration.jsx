@@ -75,7 +75,7 @@ function Registration() {
         setIslogin(false)
     }
   return (
-    <>
+    <div className='flex flex-col h-[calc(100vh-137px)]'>
         {
             islogin ?(
             <div className='flex justify-center items-center flex-col gap-10 h-72'>
@@ -103,7 +103,7 @@ function Registration() {
         </div>)
         }
         <Footer/>
-    </>
+    </div>
   )
 }
 
